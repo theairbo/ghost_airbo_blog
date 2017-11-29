@@ -1,1 +1,91 @@
+/* ==========================================================================
+   Airbo
+   ========================================================================== */
 
+.airbo {
+    font-size: 14px;
+}
+
+.airbo * {
+    font-size: 14px;
+}
+/* airbo top info bar */
+.airbo.top-info-bar {
+    background: #4face0;
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    margin-bottom: 3.5em;
+}
+
+.airbo.top-info-bar a {
+    color: white;
+}
+/* airbo subscribe footer */
+#mc_embed_signup {
+    background: #2e2e2c;
+    padding: 15px 30px;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#mc_embed_signup label[for="mce-EMAIL"] {
+    color: white;
+    display: block;
+    max-width: 815px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+#mc_embed_signup input {
+    padding: 5px;
+    border-radius: 2px;
+}
+
+#mc_embed_signup input[type="email"] {
+    padding: 5px;
+    width: 350px;
+    height: 23px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+#mc_embed_signup input[type="submit"] {
+    background: #4face0;
+    border: none;
+    color: white;
+    height: 33px;
+    width: 130px;
+}
+/* airbo bottom info bar */
+.airbo.bottom-info-bar {
+    background: #4face0;
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    padding-bottom: 35px;
+}
+
+.airbo.bottom-info-bar p {
+    margin-top: 15px;
+}
+
+.airbo.bottom-info-bar a {
+    border: 1px white solid;
+    background: transparent;
+    border-radius: 2px;
+    padding: 8px 22px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+/* rewrite standard styles */
+header {
+    margin-bottom: 0 !important;
+}
+
+footer {
+    margin-top: 0 !important;
+}
