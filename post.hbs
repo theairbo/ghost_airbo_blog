@@ -153,6 +153,9 @@ into the {body} of the default.hbs template --}}
 
 {{/post}}
 
+{{> "airbo_subscribe_footer"}}
+{{> "airbo_bottom_info_bar"}}
+
 {{!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs --}}
 {{#contentFor "scripts"}}
 <script>
