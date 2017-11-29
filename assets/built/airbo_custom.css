@@ -86,13 +86,13 @@
 /* rewrite standard styles */
 .site-footer {
     position: relative;
-    margin: 8rem 0 0 0;
     padding: 0.5rem 15px;
     border-top: #EBF2F6 1px solid;
     font-size: 1rem;
     line-height: 1.75em;
     color: #BBC7CC;
+    background-color:inherit;
 }
-.footer-content {
+.site-footer-content, .site-footer-content a {
     color: #BBC7CC;
 }
